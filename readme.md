@@ -18,7 +18,7 @@ npm i
 # run dev server
 npm run dev
 
-# navigate to the dev build
+# navigate to the dev build if previous step doesnt automagically open chrome
 localhost:8080 in chrome
 
 ```
