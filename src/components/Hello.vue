@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+		<audio controls loop>
+			<source src="../assets/ks.mp3" type="audio/mp3">
+		</audio>
   </div>
 </template>
 
