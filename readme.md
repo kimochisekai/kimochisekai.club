@@ -58,7 +58,7 @@ This creates a new build ready for deployment
 
 FROM THIS STEP ON, YOU CAN USE A GIT CLIENT SUCH AS GITKRAKEN OR SOURCETREE (RECOMMENDED)
 # Stage your changes
-git add
+git add -p
 
 # Write descriptive commit message
 git commit -m "message goes here"
