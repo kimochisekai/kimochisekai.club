@@ -1,6 +1,8 @@
 <template>
   <div class="jon">
     <h1>{{ msg }}</h1>
+    <h2>Welcome to Jon's page</h2>
+    <img src="../assets/robotchild.jpg" alt="Robot Child">
   </div>
 </template>
 
@@ -9,7 +11,7 @@ export default {
   name: 'jon',
   data() {
     return {
-      msg: 'Jons new page',
+      msg: 'Memes',
     };
   },
 };
