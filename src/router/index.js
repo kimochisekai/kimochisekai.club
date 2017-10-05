@@ -11,7 +11,7 @@ import Header from '@/components/Header';
 Vue.use(Router);
 
 // Components
-Vue.component('header', Header)
+Vue.component('header', Header);
 
 const routes = {
 	'/': Hello,
