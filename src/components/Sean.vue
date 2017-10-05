@@ -1,6 +1,7 @@
 <template>
-  <div class="sean">
+  <div class="container">
     <h1>{{ msg }}</h1>
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/videoseries?list=PLjACkj1PqNlQtLKKQB4njWkUtA3vUQ-7D" frameborder="0" allowfullscreen></iframe>
   </div>
 </template>
 
@@ -9,7 +10,7 @@ export default {
   name: 'sean',
   data() {
     return {
-      msg: 'Seans new page',
+      msg: '일하면서 듣자 얘들아',
     };
   },
 };
@@ -34,4 +35,9 @@ li {
 a {
   color: #42b983;
 }
+
+.container{
+  text-align: center;
+}
+
 </style>
