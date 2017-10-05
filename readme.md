@@ -5,12 +5,23 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+STARTING UP
+# clone the repo first
+git clone https://github.com/kimochisekai/kimochisekai.club
 
-# serve with hot reload at localhost:8080
+# CD into the project
+cd kimochisekai.club
+
+# install dependencies
+npm i
+
+# run dev server
 npm run dev
 
+# navigate to the dev build
+localhost:8080 in chrome
+
+EXTRA STUFF
 # build for production with minification
 npm run build
 
@@ -25,6 +36,26 @@ npm run e2e
 
 # run all tests
 npm test
+```
+
+## DEPLOYMENT
+When you're ready to deploy, please follow these steps
+```
+# Run the deploy command in root of folder
+npm run deploy
+
+
+FROM THIS STEP ON, YOU CAN USE A GIT CLIENT SUCH AS KRAKLEN OR SOURCETREE
+This creates a new build ready for deployment
+# Stage your changes
+git add
+
+# Write descriptive commit message
+git commit -m "message goes here"
+
+# push
+git push
+
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
