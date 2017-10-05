@@ -8,6 +8,14 @@ import Pho from '@/components/Pho';
 
 Vue.use(Router);
 
+const routes = {
+	'/': Hello,
+	'/dan': Dan,
+	'/sean': Sean,
+	'/Jon': Jon,
+	'/Pho': Pho,
+};
+
 export default new Router({
   routes: [
     {
