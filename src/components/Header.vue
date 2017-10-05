@@ -6,6 +6,7 @@
             <li class="nav-bar-item right"><router-link to="jon">Jon</router-link></li>
             <li class="nav-bar-item right"><router-link to="sean">Sean</router-link></li>
             <li class="nav-bar-item right"><router-link to="pho">Pho</router-link></li>
+            <li class="nav-bar-item right"><router-link to="craig">Craig</router-link></li>
         </ul>
     </nav>
 </template>
