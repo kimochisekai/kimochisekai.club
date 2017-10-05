@@ -52,9 +52,16 @@ npm run e2e
 npm test
 ```
 
-## DEPLOYMENT
+## DEPLOYMENT - assuming you're on master
 When you're ready to deploy, please follow these steps
 ```
+#FIRST OFF
+delete the docs/ folder - CRUCIAL
+rm -rf docs/
+
+#Pull the latest master
+git pull
+
 # Run the deploy command in root of folder
 npm run deploy
 This creates a new build ready for deployment
