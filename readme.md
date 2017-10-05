@@ -21,6 +21,9 @@ npm run dev
 # navigate to the dev build
 localhost:8080 in chrome
 
+```
+```
+
 EXTRA STUFF
 # build for production with minification
 npm run build
