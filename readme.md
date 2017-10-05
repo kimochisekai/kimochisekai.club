@@ -22,6 +22,14 @@ npm run dev
 localhost:8080 in chrome
 
 ```
+
+## WHEN YOUR DEPENDENCIES ARE FUCKED
+```
+# reinstall node modules
+rm -rf node_modules && npm i
+
+```
+
 ```
 
 EXTRA STUFF
@@ -47,8 +55,7 @@ When you're ready to deploy, please follow these steps
 # Run the deploy command in root of folder
 npm run deploy
 
-
-FROM THIS STEP ON, YOU CAN USE A GIT CLIENT SUCH AS KRAKLEN OR SOURCETREE
+FROM THIS STEP ON, YOU CAN USE A GIT CLIENT SUCH AS GITKRAKEN OR SOURCETREE (RECOMMENDED)
 This creates a new build ready for deployment
 # Stage your changes
 git add
