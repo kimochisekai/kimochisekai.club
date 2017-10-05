@@ -5,6 +5,7 @@
 			<source src="../assets/ks.mp3" type="audio/mp3">
 		</audio>
     <p>track: Lil Yagobo - Kimochi Sekai</p>
+		<img src="../assets/craig.png">
   </div>
 </template>
 
