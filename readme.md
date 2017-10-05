@@ -54,9 +54,9 @@ When you're ready to deploy, please follow these steps
 ```
 # Run the deploy command in root of folder
 npm run deploy
+This creates a new build ready for deployment
 
 FROM THIS STEP ON, YOU CAN USE A GIT CLIENT SUCH AS GITKRAKEN OR SOURCETREE (RECOMMENDED)
-This creates a new build ready for deployment
 # Stage your changes
 git add
 
