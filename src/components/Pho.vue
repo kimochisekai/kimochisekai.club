@@ -9,7 +9,7 @@ export default {
   name: 'pho',
   data() {
     return {
-      msg: 'Imma tap yo ass Pho,
+      msg: 'Imma tap yo ass Pho',
     };
   },
 };
@@ -17,9 +17,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-		<audio controls loop>
-			<source src="../assets/ks.mp3" type="audio/mp3">
-		</audio>
 h1, h2 {
   font-weight: normal;
 }
