@@ -1,7 +1,10 @@
 <template>
   <div class="pho">
 		<h1>{{msg}}</h1>
-    <iframe width="854" height="480" src="https://www.youtube.com/embed/T0XIv_mEMWc" frameborder="0" allowfullscreen></iframe>
+    <video width="320" height="400" controls>
+       <source src="../assets/dan.mp4" type="video/mp4">
+       Your browser does not support the video tag.
+     </video>
   </div>
 </template>
 
@@ -10,7 +13,7 @@ export default {
   name: 'pho',
   data() {
     return {
-      msg: 'Imma tap yo ass Pho',
+      msg: "Pho's new page",
     };
   },
 };
