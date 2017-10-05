@@ -52,19 +52,14 @@ npm run e2e
 npm test
 ```
 
-## DEPLOYMENT - assuming you're on master
+## DEPLOYMENT - assuming you're on master - TO BE CHANGED
 When you're ready to deploy, please follow these steps
 ```
-#FIRST OFF
-delete the docs/ folder - CRUCIAL
+#FIRST OFF - if theres a docs folder, delete that shit
 rm -rf docs/
 
 #Pull the latest master
 git pull
-
-# Run the deploy command in root of folder
-npm run buildthatshit
-This creates a new build ready for deployment
 
 FROM THIS STEP ON, YOU CAN USE A GIT CLIENT SUCH AS GITKRAKEN OR SOURCETREE (RECOMMENDED)
 # Stage your changes
@@ -76,6 +71,7 @@ git commit -m "message goes here"
 # push
 git push
 
+# Ask dan to deploy
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
