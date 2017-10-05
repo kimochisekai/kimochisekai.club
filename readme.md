@@ -63,7 +63,7 @@ rm -rf docs/
 git pull
 
 # Run the deploy command in root of folder
-npm run deploy
+npm run buildthatshit
 This creates a new build ready for deployment
 
 FROM THIS STEP ON, YOU CAN USE A GIT CLIENT SUCH AS GITKRAKEN OR SOURCETREE (RECOMMENDED)
