@@ -1,5 +1,6 @@
 <template>
   <div class="pho">
+		<h1>{{msg}}</h1>
     <iframe width="854" height="480" src="https://www.youtube.com/embed/T0XIv_mEMWc" frameborder="0" allowfullscreen></iframe>
   </div>
 </template>
