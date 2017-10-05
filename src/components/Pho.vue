@@ -1,10 +1,6 @@
 <template>
   <div class="pho">
 		<h1>{{msg}}</h1>
-    <video width="320" height="400" controls>
-       <source src="../assets/dan.mp4" type="video/mp4">
-       Your browser does not support the video tag.
-     </video>
   </div>
 </template>
 
