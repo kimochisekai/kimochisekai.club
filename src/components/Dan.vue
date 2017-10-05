@@ -1,7 +1,11 @@
 <template>
   <div class="dan">
     <h1>{{ msg }}</h1>
-  </div>
+		<h2>{{message}}</h2>
+		<iframe width="50%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/344283958&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+		<iframe width="50%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/345220153&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+		<iframe width="50%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/345030803&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+	</div>
 </template>
 
 <script>
@@ -9,7 +13,8 @@ export default {
   name: 'dan',
   data() {
     return {
-      msg: 'Dans new page',
+      title: 'Dans page',
+			message: 'What\'s Dan listening to?',
     };
   },
 };
@@ -17,9 +22,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-		<audio controls loop>
-			<source src="../assets/ks.mp3" type="audio/mp3">
-		</audio>
+.dan {
+	text-align: center;
+}
+
 h1, h2 {
   font-weight: normal;
 }
