@@ -6,7 +6,12 @@ import Sean from '@/components/Sean';
 import Jon from '@/components/Jon';
 import Pho from '@/components/Pho';
 
+import Header from '@/components/Header';
+
 Vue.use(Router);
+
+// Components
+Vue.component('header', Header)
 
 const routes = {
 	'/': Hello,
@@ -41,3 +46,4 @@ export default new Router({
 		}
   ],
 });
+
