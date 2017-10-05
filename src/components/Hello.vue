@@ -4,6 +4,7 @@
 		<audio controls loop>
 			<source src="../assets/ks.mp3" type="audio/mp3">
 		</audio>
+    <p>track: Lil Yagobo - Kimochi Sekai</p>
   </div>
 </template>
 
