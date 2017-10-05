@@ -2,6 +2,9 @@
 
 > KIMOCHI LIFE
 
+## Coding Standards
+https://github.com/airbnb/javascript
+
 ## Build Setup
 
 ``` bash
