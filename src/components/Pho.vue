@@ -9,7 +9,7 @@ export default {
   name: 'pho',
   data() {
     return {
-      msg: "Pho's new page",
+      msg: "キモシ セカイ",
     };
   },
 };
@@ -17,8 +17,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+*{
+  background-color: black;
+  color: white;
+}
+
 h1, h2 {
   font-weight: normal;
+}
+
+title {
+  text-align: center;
 }
 
 ul {
