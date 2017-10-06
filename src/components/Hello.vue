@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-		<audio controls loop>
+    <div id="kimochi_sekai_text"><h1>{{ msg }}</h1></div>
+		<audio controls loop id="audio_player">
 			<source src="../assets/ks.mp3" type="audio/mp3">
 		</audio>
     <p>track: Lil Yagobo - Kimochi Sekai</p>
@@ -14,7 +14,7 @@ export default {
   name: 'hello',
   data() {
     return {
-      msg: 'KIMOCHI AE SHIJAK',
+      msg: "キモシ セカイ",
     };
   },
 };
@@ -26,8 +26,19 @@ export default {
 	text-align: center;
 }
 
+#audio_player {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 h1, h2 {
+	font-size: 44px;
   font-weight: normal;
+	color: white;
+}
+
+#kimochi_sekai_text {
+	background-color: black;
 }
 
 ul {
