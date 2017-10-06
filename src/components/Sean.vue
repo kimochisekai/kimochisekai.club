@@ -1,18 +1,22 @@
 <template>
   <div class="container">
-    <h1>{{ msg }}</h1>
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/videoseries?list=PLjACkj1PqNlQtLKKQB4njWkUtA3vUQ-7D" frameborder="0" allowfullscreen></iframe>
+    <weather></weather>
+    <h1>{{msg}}</h1>
   </div>
 </template>
 
 <script>
+import Weather from '@/components/Weather'
 export default {
   name: 'sean',
   data() {
     return {
-      msg: '일하면서 듣자 얘들아',
+      msg: 'Fkn Lit!!',
     };
   },
+  components:{
+    'weather': Weather
+  }
 };
 </script>
 
