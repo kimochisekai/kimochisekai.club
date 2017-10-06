@@ -1,0 +1,11 @@
+{
+ "name": "kimochisekai",
+ "version": "1.0.0",
+ "description": "The greatest website in the universe",
+ "author": "Awesome Author",
+ "private": true,
+ "scripts": {
+   "postinstall": "npm install express"
+ }
+}
+
