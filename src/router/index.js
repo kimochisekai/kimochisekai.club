@@ -5,6 +5,7 @@ import Dan from '@/components/Dan';
 import Sean from '@/components/Sean';
 import Jon from '@/components/Jon';
 import Pho from '@/components/Pho';
+import Craig from '@/components/Craig';
 
 import Header from '@/components/Header';
 import Weather from '@/components/Weather'
@@ -20,6 +21,7 @@ const routes = {
 	'/sean': Sean,
 	'/Jon': Jon,
 	'/Pho': Pho,
+	'/Craig': Craig,
 };
 
 export default new Router({
@@ -44,7 +46,11 @@ export default new Router({
 		{
 			path: '/pho',
 			component: Pho,
-		}
+		}, 
+		{
+			path: '/craig',
+			component: Craig,
+		},
   ],
 });
 
