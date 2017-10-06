@@ -7,11 +7,12 @@ import Jon from '@/components/Jon';
 import Pho from '@/components/Pho';
 
 import Header from '@/components/Header';
-
+import Weather from '@/components/Weather'
 Vue.use(Router);
 
 // Components
 Vue.component('header', Header);
+Vue.component('weather', Weather);
 
 const routes = {
 	'/': Hello,
