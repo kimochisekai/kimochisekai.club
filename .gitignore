@@ -2,6 +2,7 @@
 npm-debug.log*
 node_modules/
 dist/
+docs/
 yarn-debug.log*
 yarn-error.log*
 test/unit/coverage
