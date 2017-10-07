@@ -1,11 +1,12 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Hello from '@/components/Hello';
-import Dan from '@/components/Dan';
+import Dan from '@/components/dan/Dan';
 import Sean from '@/components/Sean';
 import Jon from '@/components/Jon';
 import Pho from '@/components/Pho';
 import Craig from '@/components/Craig';
+import Music from '@/components/Music';
 
 import Header from '@/components/Header';
 import Weather from '@/components/Weather'
@@ -50,6 +51,10 @@ export default new Router({
 		{
 			path: '/craig',
 			component: Craig,
+		},
+		{
+			path: '/music',
+			component: Music,
 		},
   ],
 });
