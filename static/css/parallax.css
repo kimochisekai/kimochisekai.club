@@ -1,0 +1,68 @@
+#parallxWrapper {
+    margin: auto;
+}
+
+.parallxBackground {
+    height: 100%;
+    /*background-image: url("img/background-layer.jpeg");*/
+    background-size: 750px 550px;
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.parallxLayerZero {
+  background-size: 250px 400px;
+  -webkit-transform: translateZ(0px);
+  -webkit-transition: all 0.2s;
+  transform: translateZ(0px);
+  transition: all 0.2s;
+}
+
+.parallxLayerOne {
+    background-size: 250px 250px;
+    -webkit-transform: translateZ(100px);
+    -webkit-transition: all 0.2s;
+    transform: translateZ(100px);
+    transition: all 0.2s;
+}
+
+.parallxLayerTwo {
+    background-size: 200px 200px;
+    -webkit-transform: translateZ(200px);
+    -webkit-transition: all 0.2s;
+    transform: translateZ(200px);
+    transition: all 0.2s;
+}
+
+.parallxLayerThree {
+    background-size: 200px 200px;
+    -webkit-transform: translateZ(30px);
+    -webkit-transition: all 0.2s;
+    transform: translateZ(30px);
+    transition: all 0.2s;
+}
+
+.parallxLayer:hover {
+    -webkit-transform: scale(1.05);
+    -webkit-transform: translateZ(30px);
+    transform: scale(1.05);
+    transform: translateZ(30px);
+    cursor: pointer;
+}
+
+.parallxLayerRStar:hover {
+    -webkit-transform: scale(1.05);
+    -webkit-transform: translateZ(30px);
+    transform: scale(1.05);
+    transform: translateZ(30px);
+    cursor: pointer;
+}
+
+.lead {
+    font-weight: 200;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
