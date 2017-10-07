@@ -49,8 +49,8 @@ export default {
 }
 
 h2 {
+	color: white;
   font-weight: normal;
-	margin: 30px;
 }
 
 a {
